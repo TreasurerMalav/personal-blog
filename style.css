@@ -1,0 +1,76 @@
+h1{
+	font-family: courier, fantasy;
+	font-style: normal;
+	margin-top: 20px;
+	font-size: 27px; 
+	text-shadow: 4px 4px black;
+	color: #FFFFFF;
+	padding-top: 12px;
+}
+header{
+	background-color: #454040;
+	box-shadow: 10px;
+}
+p{
+	text-align: center;
+	color: white; 
+}
+footer{
+	/*height: 70px;*/
+	background-color: #454040;
+	width: 100%;
+}
+li{
+	list-style-type: none;
+	text-decoration: none;
+}
+li a{
+	color: #FFFFFF; 
+	text-shadow: 1px 1px black;
+}
+.navbar{
+	background-color: #454040;
+}
+ .sidenav {
+      background-color: #454040;
+      height: 100%;
+    }
+.row.content {height: 1500px;}
+ @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+.background{
+	background-color: #C4C2C2;
+}
+.container li{
+	text-decoration: underline;
+	color:blue;
+}
+.container ol{
+	border: 2px solid black;
+}
+.card-text{
+	color: #454040;
+}
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+.loginForm{
+	background-color: black;
+}
